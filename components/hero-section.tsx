@@ -13,12 +13,15 @@ export function HeroSection() {
         </span>
 
         <h1 className="text-balance leading-[0.85] mb-6" style={{ fontFamily: "var(--font-display)" }}>
-          <span className="block text-7xl sm:text-8xl md:text-[9rem] xl:text-[11rem] font-medium tracking-[-0.03em] text-primary">
-            Pratic
-          </span>
-          <span className="block text-7xl sm:text-8xl md:text-[9rem] xl:text-[11rem] italic font-light tracking-[-0.02em] text-foreground/85 -mt-2 md:-mt-6">
-            Pilates
-          </span>
+          <div className="flex items-baseline justify-center gap-4">
+            <span className="text-7xl sm:text-8xl md:text-[9rem] xl:text-[11rem] font-medium tracking-[-0.03em] text-primary">
+              Pratic
+            </span>
+
+            <span className="text-7xl sm:text-8xl md:text-[9rem] xl:text-[11rem] italic font-light tracking-[-0.02em] text-foreground/85">
+              Pilates
+            </span>
+          </div>
         </h1>
 
         <div className="mx-auto mb-8 flex items-center justify-center gap-3">

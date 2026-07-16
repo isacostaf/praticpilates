@@ -14,8 +14,8 @@ export function AboutPilates() {
           <div className="relative">
             <div className="overflow-hidden rounded-3xl shadow-xl">
               <Image
-                src="/images/studio-session.png"
-                alt="Aula de pilates no reformer no Pratic Pilates"
+                src="/images/PP-closePatricia.jpg"
+                alt="Close durante exercicio de braços em aula de pilates"
                 width={800}
                 height={900}
                 className="w-full h-full object-cover"
