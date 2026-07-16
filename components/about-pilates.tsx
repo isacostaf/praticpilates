@@ -10,8 +10,8 @@ export function AboutPilates() {
   return (
     <section id="sobre" className="relative z-10 py-24 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+        <div className="items-center">
+          {/* <div className="relative">
             <div className="overflow-hidden rounded-3xl shadow-xl">
               <Image
                 src="/images/PP-closePatricia.jpg"
@@ -30,16 +30,17 @@ export function AboutPilates() {
                 atenção total.
               </p>
             </div>
-          </div>
+          </div> */}
 
-          <div>
-            <span className="text-xs uppercase tracking-[0.35em] text-primary/80">O que é o Pilates</span>
+          <div className="bg-background/60 backdrop-blur-md rounded-2xl border border-border/60 p-4 text-center">
+            {/* <span className="text-xs uppercase tracking-[0.35em] text-primary/80">O que é o Pilates</span> */}
             <h2
-              className="mt-4 text-4xl md:text-5xl text-foreground text-balance leading-tight"
+              className="mt-4 mb-4 text-4xl md:text-5xl text-foreground text-balance leading-tight"
               style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
             >
-              Força, equilíbrio e consciência corporal
+              O que é o Pilates?
             </h2>
+            <span className="mt-6 text-xs uppercase tracking-[0.35em] text-primary/80">Força, equilíbrio e consciência corporal</span>
             <div className="mt-6 space-y-4 text-foreground/75 leading-relaxed">
               <p>
                 O Pilates é um método que trabalha corpo e mente de forma integrada, fortalecendo a
@@ -54,7 +55,7 @@ export function AboutPilates() {
               </p>
             </div>
 
-            <div className="mt-10 grid grid-cols-3 gap-4">
+            {/* <div className="mt-10 grid grid-cols-3 gap-4">
               {stats.map((stat) => (
                 <div
                   key={stat.label}
@@ -69,7 +70,7 @@ export function AboutPilates() {
                   <p className="mt-1 text-xs text-muted-foreground leading-snug">{stat.label}</p>
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
