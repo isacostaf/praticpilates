@@ -13,6 +13,29 @@ const faqs = [
     a: "Trabalhamos com turmas de no máximo 2 alunos. Assim garantimos correção precisa, segurança e atenção individualizada em cada movimento.",
   },
   {
+    q: "Qual o horário das aulas?",
+    a: (
+      <>
+        As aulas são realizadas mediante agendamento prévio.
+        <br /><br />
+
+        <strong>Segunda-feira</strong>  :  07h às 22h
+        <br /><br />
+
+        <strong>Terça-feira</strong>  :  07h às 22h
+        <br /><br />
+
+        <strong>Quarta-feira</strong>  :  07h às 22h
+        <br /><br />
+
+        <strong>Quinta-feira</strong>  :  07h às 22h
+        <br /><br />
+
+        <strong>Sexta-feira</strong>  :  07h às 21h
+      </>
+    ),
+  },
+  {
     q: "Quantas vezes por semana devo praticar?",
     a: "Depende do seu objetivo e condicionamento. Em geral, recomendamos de 2 a 3 vezes por semana para resultados consistentes, mas montamos a frequência ideal para você.",
   },
@@ -68,7 +91,9 @@ export function Faq() {
                   }`}
                 >
                   <div className="overflow-hidden">
-                    <p className="px-6 pb-5 text-foreground/70 leading-relaxed">{faq.a}</p>
+                    <p className="px-6 pb-5 text-foreground/70 leading-loose whitespace-pre-line">
+                      {faq.a}
+                    </p>
                   </div>
                 </div>
               </div>
