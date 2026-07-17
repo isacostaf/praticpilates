@@ -9,7 +9,7 @@ import { Suspense } from "react"
 export const metadata: Metadata = {
   title: "Pratic Pilates | Studio de Pilates em Brasília",
   description:
-    "Studio de pilates de alta categoria no Sudoeste, Brasília. Turmas com no máximo 2 alunos, programas personalizados e acompanhamento exclusivo. Agende sua aula experimental.",
+    "Studio de Pilates no Sudoeste, Brasília.",
   generator: "v0.app",
 }
 
