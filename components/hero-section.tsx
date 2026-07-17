@@ -9,7 +9,7 @@ export function HeroSection() {
     >
       <div className="max-w-5xl mx-auto px-6 w-full relative z-10 pt-28 pb-20 text-center">
         
-        <span className="inline-flex items-center gap-2 mb-8 text-[10px] sm:text-[11px] md:text-xs uppercase tracking-[0.4em] text-foreground/70 bg-background/30 backdrop-blur-md rounded-full px-3 sm:px-5 py-2.5 border border-foreground/10">
+        <span className="inline-flex items-center gap-2 mb-8 text-[8px] sm:text-[11px] md:text-xs uppercase tracking-[0.25em] sm:tracking-[0.4em] text-foreground/70 bg-background/30 backdrop-blur-md rounded-full px-3 sm:px-5 py-2.5 border border-foreground/10">
           Studio de Pilates · Sudoeste, Brasília
         </span>
 
