@@ -31,7 +31,7 @@ export function HeroSection() {
         </div>
 
         <p className="text-base md:text-xl text-foreground/75 text-pretty max-w-xl mx-auto leading-relaxed mb-10">
-          Movimento com intenção, cuidado com propósito. Turmas reduzidas, atenção exclusiva e um
+          Movimento com intenção, cuidado com propósito. Turmas de até 2 alunos, atenção exclusiva e um
           ambiente sereno para reconectar corpo e mente.
         </p>
 

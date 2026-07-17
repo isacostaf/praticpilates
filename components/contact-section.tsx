@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button"
 import { MapPin, Phone, MessageCircle } from "lucide-react"
 import { whatsappUrl, siteConfig } from "@/lib/site"
 
+
 export function ContactSection() {
   return (
     <section id="contato" className="relative z-10 py-24 px-6">
@@ -35,10 +36,19 @@ export function ContactSection() {
                   <div className="w-10 h-10 rounded-xl bg-secondary flex items-center justify-center shrink-0">
                     <Phone className="w-5 h-5 text-primary" strokeWidth={1.5} />
                   </div>
-                  <div>
-                    <p className="text-foreground font-medium text-sm">WhatsApp</p>
-                    <p className="text-muted-foreground text-sm">{siteConfig.phoneDisplay}</p>
-                  </div>
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block"
+                  >
+                    <div>
+                      <p className="text-foreground font-medium text-sm">WhatsApp</p>
+                      <p className="text-muted-foreground text-sm">
+                        {siteConfig.phoneDisplay}
+                      </p>
+                    </div>
+                  </a>
                 </div>
               </div>
 

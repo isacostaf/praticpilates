@@ -3,7 +3,7 @@ import { Users, Target, HeartHandshake } from "lucide-react"
 const items = [
   {
     icon: Users,
-    title: "Turmas com no máximo 2 alunos",
+    title: "2 alunos por turma",
     description:
       "Você nunca se sente só mais um. Com turmas reduzidas, garantimos correção precisa, segurança e a atenção que o seu corpo merece.",
   },
@@ -23,37 +23,114 @@ const items = [
 
 export function Differentials() {
   return (
-    <section id="diferenciais" className="relative z-10 py-24 px-6">
+    <section id="diferenciais" className="relative z-10 py-28 px-6">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center max-w-2xl mx-auto mb-16">
-          <span className="text-xs uppercase tracking-[0.35em] text-primary/80">Nosso diferencial</span>
-          <h2
-            className="mt-4 text-4xl md:text-5xl text-foreground text-balance leading-tight"
-            style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
-          >
+
+        {/* Cabeçalho */}
+        <div className="text-center max-w-2xl mx-auto mb-24">
+          <span className="text-xs uppercase tracking-[0.4em] text-primary/70">
             Uma experiência feita para você
+          </span>
+
+          <h2
+            className="mt-5 text-4xl md:text-5xl text-foreground leading-tight"
+            style={{
+              fontFamily: "var(--font-serif)",
+              fontWeight: 500,
+            }}
+          >
+            Nosso Diferencial
           </h2>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-6">
+
+        {/* Cards */}
+        <div className="grid md:grid-cols-3 gap-12">
+
           {items.map((item) => (
             <div
               key={item.title}
-              className="bg-background/70 backdrop-blur-xl rounded-3xl border border-border/60 shadow-sm p-8 flex flex-col"
+              className="relative pt-16"
             >
-              <div className="w-12 h-12 rounded-2xl bg-secondary flex items-center justify-center mb-6">
-                <item.icon className="w-6 h-6 text-primary" strokeWidth={1.5} />
-              </div>
-              <h3
-                className="text-2xl text-foreground mb-3 leading-snug"
-                style={{ fontFamily: "var(--font-serif)", fontWeight: 600 }}
+
+              {/* Ícone fora do card */}
+              <div
+                className="
+                  absolute
+                  -top-10
+                  left-1/2
+                  -translate-x-1/2
+                  w-20
+                  h-20
+                  rounded-full
+                  bg-background
+                  border
+                  border-primary/20
+                  flex
+                  items-center
+                  justify-center
+                  shadow-sm
+                  z-10
+                "
               >
-                {item.title}
-              </h3>
-              <p className="text-foreground/70 leading-relaxed text-sm">{item.description}</p>
+                <item.icon
+                  className="w-10 h-10 text-primary"
+                  strokeWidth={1}
+                />
+              </div>
+
+
+              {/* Card */}
+              <div
+                className="
+                  bg-background/60
+                  backdrop-blur-xl
+                  rounded-[2rem]
+                  border
+                  border-border/50
+                  px-8
+                  pb-8
+                  pt-8
+                  text-center
+                  shadow-sm
+                  hover:shadow-md
+                  transition-shadow
+                "
+              >
+
+                <h3
+                  className="
+                    text-2xl
+                    text-foreground
+                    mb-4
+                    leading-snug
+                  "
+                  style={{
+                    fontFamily: "var(--font-serif)",
+                    fontWeight: 600,
+                  }}
+                >
+                  {item.title}
+                </h3>
+
+
+                <p
+                  className="
+                    text-sm
+                    leading-relaxed
+                    text-foreground/65
+                  "
+                >
+                  {item.description}
+                </p>
+
+              </div>
+
             </div>
           ))}
+
         </div>
+
       </div>
     </section>
   )

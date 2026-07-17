@@ -8,7 +8,7 @@ const stats = [
 
 export function AboutPilates() {
   return (
-    <section id="sobre" className="relative z-10 py-24 px-6">
+    <section id="sobre" className="relative z-10 py-0 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="items-center">
           {/* <div className="relative">
@@ -32,27 +32,29 @@ export function AboutPilates() {
             </div>
           </div> */}
 
-          <div className="bg-background/60 backdrop-blur-md rounded-2xl border border-border/60 p-4 text-center">
+          <div>
             {/* <span className="text-xs uppercase tracking-[0.35em] text-primary/80">O que é o Pilates</span> */}
             <h2
-              className="mt-4 mb-4 text-4xl md:text-5xl text-foreground text-balance leading-tight"
+              className="mt-4 mb-4 text-4xl md:text-5xl text-foreground text-balance leading-tight text-center"
               style={{ fontFamily: "var(--font-serif)", fontWeight: 500 }}
             >
               O que é o Pilates?
             </h2>
-            <span className="mt-6 text-xs uppercase tracking-[0.35em] text-primary/80">Força, equilíbrio e consciência corporal</span>
-            <div className="mt-6 space-y-4 text-foreground/75 leading-relaxed">
-              <p>
-                O Pilates é um método que trabalha corpo e mente de forma integrada, fortalecendo a
-                musculatura profunda, melhorando a postura, a flexibilidade e a respiração. Cada
-                movimento é preciso, fluido e realizado com plena consciência.
-              </p>
-              <p>
-                No {""}
-                <span className="text-primary font-medium">Pratic Pilates</span>, unimos essa técnica
-                milenar a um atendimento exclusivo e um ambiente acolhedor, para que você evolua com
-                segurança e no seu ritmo — seja para reabilitação, condicionamento ou bem-estar.
-              </p>
+            <div  className="bg-background/60 backdrop-blur-md rounded-2xl border border-border/60 p-4 text-center">
+              <span className="mt-6 text-xs uppercase tracking-[0.35em] text-primary/80">Força, equilíbrio e consciência corporal</span>
+              <div className="mt-6 space-y-4 text-foreground/75 leading-relaxed">
+                <p>
+                  O Pilates é um método que trabalha corpo e mente de forma integrada, fortalecendo a
+                  musculatura profunda, melhorando a postura, a flexibilidade e a respiração. Cada
+                  movimento é preciso, fluido e realizado com plena consciência.
+                </p>
+                <p>
+                  No {""}
+                  <span className="text-primary font-medium">Pratic Pilates</span>, unimos essa técnica
+                  milenar a um atendimento exclusivo e um ambiente acolhedor, para que você evolua com
+                  segurança e no seu ritmo — seja para reabilitação, condicionamento ou bem-estar.
+                </p>
+              </div>
             </div>
 
             {/* <div className="mt-10 grid grid-cols-3 gap-4">

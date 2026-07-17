@@ -1,5 +1,6 @@
 import { siteConfig } from "@/lib/site"
 
+
 export function SiteFooter() {
   return (
     <footer className="relative z-10 px-6 pb-10">
@@ -16,7 +17,7 @@ export function SiteFooter() {
           </div>
           <div className="text-sm text-muted-foreground">
             <p>{siteConfig.phoneDisplay}</p>
-            <p className="mt-1">Seg a Sáb · Horários sob agendamento</p>
+            <p className="mt-1">Seg a Sex · Horários sob agendamento</p>
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-border/60 text-center text-xs text-muted-foreground">
