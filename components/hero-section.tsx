@@ -71,7 +71,7 @@ export function HeroSection() {
         className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 text-foreground/50 hover:text-primary transition-colors mt-4"
         aria-label="Rolar para saber mais"
       >
-        <span className="block text-[10px] uppercase tracking-[0.3em] mb-2 mt-2">
+        <span className="block text-[10px] uppercase tracking-[0.3em] mb-2 mt-200">
           Explore
         </span>
 
