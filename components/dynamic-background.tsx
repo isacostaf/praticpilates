@@ -23,7 +23,7 @@ export function DynamicBackground() {
       <MeshGradient
         width={dimensions.width}
         height={dimensions.height}
-        colors={["#b3ccc0", "#c3d7d9", "#d8e4c8", "#eef1d8", "#c9dbcf", "#e4ead0"]}
+        colors={["#b3ccc0", "#c3d7d9", "#d8e4c8", "#e8dcc8", "#c9dbcf", "#e4ead0"]}
         distortion={0.75}
         swirl={0.55}
         grainMixer={0}

@@ -6,7 +6,9 @@ import { whatsappUrl, siteConfig } from "@/lib/site"
 
 const links = [
   { label: "Sobre", href: "#sobre" },
+  { label: "Benefícios", href: "#beneficios" },
   { label: "Diferenciais", href: "#diferenciais" },
+  { label: "Gestação", href: "#gestacao" },
   { label: "Galeria", href: "#galeria" },
   { label: "Depoimentos", href: "#depoimentos" },
   { label: "Dúvidas", href: "#faq" },

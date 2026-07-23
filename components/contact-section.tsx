@@ -24,8 +24,8 @@ export function ContactSection() {
 
               <div className="mt-8 space-y-5">
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 rounded-xl bg-secondary flex items-center justify-center shrink-0">
-                    <MapPin className="w-5 h-5 text-primary" strokeWidth={1.5} />
+                  <div className="w-10 h-10 rounded-xl bg-[#8B6F47]/10 flex items-center justify-center shrink-0">
+                    <MapPin className="w-5 h-5 text-[#8B6F47]" strokeWidth={1.5} />
                   </div>
                   <div>
                     <p className="text-foreground font-medium text-sm">Endereço</p>
@@ -79,7 +79,7 @@ export function ContactSection() {
             <div className="min-h-[300px] md:min-h-full">
               <iframe
                 title="Localização do Pratic Pilates"
-                src="https://www.google.com/maps?q=SQSW+302+Sudoeste+Brasilia+DF+70673-612&output=embed"
+                src="https://www.google.com/maps?q=CLSW+302+Sudoeste+Brasilia+DF+70673-612&output=embed"
                 className="w-full h-full min-h-[300px] border-0"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"

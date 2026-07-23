@@ -41,7 +41,7 @@ export function AboutPilates() {
               O que é o Pilates?
             </h2>
             <div  className="bg-background/60 backdrop-blur-md rounded-2xl border border-border/60 p-4 text-center">
-              <span className="mt-6 text-xs uppercase tracking-[0.35em] text-primary/80">Força, equilíbrio e consciência corporal</span>
+              <span className="mt-6 text-xs uppercase tracking-[0.35em] text-[#8B6F47] font-medium">Força, equilíbrio e consciência corporal</span>
               <div className="mt-6 space-y-4 text-foreground/75 leading-relaxed">
                 <p>
                   O Pilates é um método que trabalha corpo e mente de forma integrada, fortalecendo a

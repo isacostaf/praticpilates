@@ -18,6 +18,7 @@ const items = [
     title: "Acompanhamento exclusivo",
     description:
       "Nossa equipe acompanha de perto cada evolução, ajustando os exercícios aula a aula para que você alcance resultados reais e duradouros.",
+    brown: true,
   },
 ]
 
@@ -28,12 +29,12 @@ export function Differentials() {
 
         {/* Cabeçalho */}
         <div className="text-center max-w-2xl mx-auto mb-24">
-          <span className="text-xs uppercase tracking-[0.4em] text-primary/70">
+          <span className="text-xs uppercase tracking-[0.4em] text-foreground font-medium">
             Uma experiência feita para você
           </span>
 
           <h2
-            className="mt-5 text-4xl md:text-5xl text-foreground leading-tight"
+            className="mt-3 text-4xl md:text-5xl text-foreground leading-tight"
             style={{
               fontFamily: "var(--font-serif)",
               fontWeight: 500,
@@ -55,7 +56,7 @@ export function Differentials() {
 
               {/* Ícone fora do card */}
               <div
-                className="
+                className={`
                   absolute
                   -top-10
                   left-1/2
@@ -65,16 +66,16 @@ export function Differentials() {
                   rounded-full
                   bg-background
                   border
-                  border-primary/20
                   flex
                   items-center
                   justify-center
                   shadow-sm
                   z-10
-                "
+                  
+                `}
               >
                 <item.icon
-                  className="w-10 h-10 text-primary"
+                  className={`w-10 h-10 ${item.brown ? "text-foreground" : "text-primary"}`}
                   strokeWidth={1}
                 />
               </div>

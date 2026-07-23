@@ -2,7 +2,10 @@ import { DynamicBackground } from "@/components/dynamic-background"
 import { Navigation } from "@/components/navigation"
 import { HeroSection } from "@/components/hero-section"
 import { AboutPilates } from "@/components/about-pilates"
+import { PilatesBenefits } from "@/components/pilates-benefits"
 import { Differentials } from "@/components/differentials"
+import { PilatesPregnancy } from "@/components/pilates-pregnancy"
+import { PilatesArticles } from "@/components/pilates-articles"
 import { Gallery } from "@/components/gallery"
 import { Testimonials } from "@/components/testimonials"
 import { Faq } from "@/components/faq"
@@ -16,11 +19,12 @@ export default function HomePage() {
       <DynamicBackground />
       <Navigation />
       <HeroSection />
-      <AboutPilates />
+      <PilatesBenefits />
       <Differentials />
       <Gallery />
+      <PilatesPregnancy />
       <Testimonials />
-      <Faq />
+      <PilatesArticles />
       <ContactSection />
       <SiteFooter />
       <WhatsappFloat />

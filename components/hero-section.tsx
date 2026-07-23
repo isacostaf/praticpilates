@@ -9,7 +9,8 @@ export function HeroSection() {
     >
       <div className="max-w-5xl mx-auto px-6 w-full relative z-10 pt-28 pb-20 text-center">
         
-        <span className="inline-flex items-center gap-2 mb-8 text-[8px] sm:text-[11px] md:text-xs uppercase tracking-[0.25em] sm:tracking-[0.4em] text-foreground/70 bg-background/30 backdrop-blur-md rounded-full px-3 sm:px-5 py-2.5 border border-foreground/10">
+        <span className="inline-flex items-center gap-2 mb-8 text-[8px] sm:text-[11px] md:text-xs uppercase tracking-[0.25em] sm:tracking-[0.4em] text-foreground/70 bg-primary-foreground/30 backdrop-blur-md rounded-full px-3 sm:px-5 py-2.5 border border-foreground/10">
+          <span className="w-1.5 h-1.5 rounded-full bg-foreground" />
           Studio de Pilates · Sudoeste, Brasília
         </span>
 
@@ -19,18 +20,18 @@ export function HeroSection() {
               Pratic
             </span>
 
-            <span className="text-5xl sm:text-8xl md:text-[9rem] xl:text-[11rem] italic font-light tracking-[-0.02em] text-foreground/85">
+            <span className="text-5xl sm:text-8xl md:text-[9rem] xl:text-[11rem] italic font-light tracking-[-0.02em] text-[#6B4F3A]">
               Pilates
             </span>
           </div>
         </h1>
 
         <div className="mx-auto mb-8 flex items-center justify-center gap-3">
-          <span className="h-px w-10 bg-foreground/25" />
-          <span className="text-[10px] uppercase tracking-[0.4em] text-foreground/50">
+          <span className="h-px w-10 bg-[#8B6F47]/70" />
+          <span className="text-[10px] uppercase tracking-[0.4em] text-[#8B6F47] font-medium">
             Est. Brasília
           </span>
-          <span className="h-px w-10 bg-foreground/25" />
+          <span className="h-px w-10 bg-[#8B6F47]/70" />
         </div>
 
         <p className="text-sm sm:text-base md:text-xl text-foreground/75 text-pretty max-w-xl mx-auto leading-relaxed mb-10">
@@ -57,7 +58,7 @@ export function HeroSection() {
             asChild
             size="lg"
             variant="outline"
-            className="rounded-full bg-background/30 backdrop-blur-md border-foreground/20 text-foreground hover:bg-background/50 px-8 py-6 text-base"
+            className="rounded-full bg-[#6B4F3A] backdrop-blur-md border-foreground/20 text-primary-foreground hover:bg-background/50 hover:border-accent-foreground/40 px-8 py-6 text-base"
           >
             <a href="#sobre">
               Conhecer o studio

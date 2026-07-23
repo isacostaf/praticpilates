@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "Pratic Pilates",
   phoneDisplay: "+55 61 98191-9910",
-  address: "SQSW 302, Bloco B, Sala 109 — Sudoeste/Octogonal, Brasília - DF, 70673-612",
+  address: "CLSW 302, Bloco B, Sala 109 — Sudoeste/Octogonal, Brasília - DF, 70673-612",
   addressShort: "Sudoeste, Brasília - DF",
   mapsUrl:
     "https://www.google.com/maps/search/?api=1&query=SQSW+302+Sala+109+Sudoeste+Brasilia+DF+70673-612",

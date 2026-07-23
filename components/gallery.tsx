@@ -2,9 +2,14 @@ import Image from "next/image"
 
 const photos = [
   {
-    src: "/images/PP-1.jpg",
+    src: "/images/PN-3.jpg",
     alt: "Reformer no studio Pratic Pilates",
     span: "md:col-span-2 md:row-span-2",
+  },
+  {
+    src: "/images/PN-2.jpg",
+    alt: "Equipamentos de pilates",
+    span: "md:row-span-2",
   },
   {
     src: "/images/PP-2.jpg",
@@ -12,39 +17,9 @@ const photos = [
     span: "",
   },
   {
-    src: "/images/PP-3.jpg",
+    src: "/images/PP-1.jpg",
     alt: "Espaço de pilates",
     span: "",
-  },
-  {
-    src: "/images/PP-4.jpg",
-    alt: "Equipamentos de pilates",
-    span: "md:col-span-2",
-  },
-  {
-    src: "/images/PP-5.jpg",
-    alt: "Área de exercícios",
-    span: "md:row-span-2",
-  },
-  {
-    src: "/images/PP-6.jpg",
-    alt: "Detalhes do studio",
-    span: "",
-  },
-  {
-    src: "/images/PP-7.jpg",
-    alt: "Sessão de pilates",
-    span: "",
-  },
-  {
-    src: "/images/PP-closePatricia.jpg",
-    alt: "Sessão de pilates",
-    span: "md:row-span-2",
-  },
-  {
-    src: "/images/PP-8.png",
-    alt: "Ambiente acolhedor",
-    span: "md:col-span-2",
   },
 ]
 
