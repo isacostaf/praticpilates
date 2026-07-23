@@ -73,12 +73,12 @@ export function PilatesPregnancy() {
                   </span>
                 </div>
 
-                <span className="text-[10px] uppercase tracking-[0.3em] text-primary/70 mb-1">
+                <span className="text-[10px] uppercase tracking-[0.3em] text-primary/70 mb-1 mt-2">
                   {phase.subtitle}
                 </span>
 
                 <h3
-                  className="text-lg text-foreground leading-snug"
+                  className="text-lg text-foreground leading-snug mt-3"
                   style={{ fontFamily: "var(--font-serif)", fontWeight: 600 }}
                 >
                   {phase.title}
